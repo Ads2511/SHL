@@ -1,10 +1,4 @@
----
-title: SHL
-emoji: 📈
-colorFrom: red
-colorTo: red
-sdk: streamlit
-sdk_version: 1.44.1# SHL Assessment Recommendation API  
+# SHL Assessment Recommendation API  
 
 ## 🚀 Overview  
 The **SHL Assessment Recommendation API** helps users find the most relevant SHL assessments based on job descriptions or queries. This project utilizes **Sentence-BERT (SBERT)** for semantic similarity matching and is **deployed on Hugging Face Spaces using Docker**.  
@@ -54,9 +48,3 @@ The dataset was obtained from **SHL’s official website** and includes:
 
 ## 📡 API Usage  
 ### **Endpoint**  
-
-app_file: app.py
-pinned: false
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
